@@ -1,0 +1,103 @@
+
+h1{
+    
+   height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 1em; 
+     text-align: justify;
+    align-items: left;
+    align-content: center; 
+   background-position: top; 
+    
+    position: fixed;
+
+}
+nav ul {
+  max-width: 0vw;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav li a {
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 16px;
+  text-decoration: aqua;
+  max-width: 100vw;
+}
+
+nav li a:hover {
+  color: rgb(186, 182, 167);
+} 
+
+ nav ul li {
+  max-width: 100vw;
+  min-width: 18vw;
+  border-left: black;
+  
+  list-style-type:none;
+  padding:10px;
+  width:100%;                                   /*this is the line that helped me get rid of the white space at the start of my nav */
+   }
+nav ul li a {
+  min-width: 100%;
+  max-width: 100%;
+  width:100%;   
+  text-decoration:none;
+  } 
+ 
+
+
+
+
+ #help img{
+  border: hotpink;
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    scale: 50%;
+  }
+
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+  }
+  .section { 
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+  }
+  .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100vw;
+    min-width: 100vw;
+    max-height: 33vw;
+    min-height: 100vw;
+    z-index: -1;
+    
+  }
+
+
+  .bg1::after {
+    background-image: url('http://localhost/lab4/orangeDock.jpg');
+  }

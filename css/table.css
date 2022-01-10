@@ -1,0 +1,54 @@
+html{
+    background-image: url(grey.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgb(11, 114, 174);
+    width: 50%;
+    
+}
+
+h2{
+    
+    margin-top: -50px;
+    padding-top: -100vh;
+    padding-left: 70vw;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgb(11, 114, 174);
+}
+
+.styled-table th{
+    font-size: 2em;
+    color: rgb(247, 220, 247);
+    width: 70%;
+    text-shadow: 2px 2px black;
+    
+}
+
+.styled-table tr{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 100%;
+        color: rgb(243, 217, 243);
+        text-shadow: 1px 1px black;
+        font-size: 1.2em;
+}
+
+
+.styled-table tr:nth-child(even){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(11, 114, 174);
+    color: rgb(245, 218, 245);
+    font-size: 1.2em;
+    /* text-shadow: 1px 1px rgb(2, 189, 189); */
+}
+
+/* .styled-table tr:nth-child(odd){
+    background-color: rgb(47, 199, 199);
+    color: thistle;
+} */
+
+
