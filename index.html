@@ -74,7 +74,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+          <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" max-width= "110%" />
         </div>
         <div class="col-lg-6">
           <div class="tm-intro-text-container">
@@ -91,9 +91,10 @@
               Computer Science and getting a concentration
               in Cognitive Science and a minor in Philosophy. I work on computational modeling with the <a
                 href="http://wraplab.co">Word Recognition and Processing lab</a>,
-              and am interested in natural language processing. I love listening to and <a
-                href="https://foldedname.bandcamp.com/"> making music</a>, playing tennis and basketball,
-              and being with animals.
+              and am interested in natural language processing and software engineering.
+               I love listening to and <a href="https://foldedname.bandcamp.com/"> making music</a>,
+              playing tennis and basketball, and being with animals.
+              
             </p>
             <!-- <p class="mb-5 tm-intro-text">
                   Please tell your friends about our site 
@@ -143,70 +144,94 @@
           </div>
         </div>
       </div>  
-      <div class="col-lg-6">
-        
-          <br></br>
-          <h2 class="tm-text-primary mb-4 tm-section-title">Other independent projects</h2>
-          <p class="mb-4 tm-intro-text">
-        
+      <br></br>
+   
 
-          </p>
-       
-      </div>
       <div class="row">
         
-        <h1>
-          Chess AI
+        <h1 style=" color:#3496d8">
+         
+          
+         
+          Other independent projects
         </h1>
-        <p>
-          With very little HTML, CSS, and Javascript experience, I have been working on 
-        creating a playable chess AI that can beat myself at chess. The goal of this
-         project is to give me experience with hands-on problem solving, and to explore
-          the different types of algorithms that are helpful in game-theory. I am currently 
-          avoiding any tutorials for chess AIs and seeing what I am capable of doing completely
-           by myself. I am very good and chess and have always wanted to build an AI that can 
-           beat me. Although the project is still under development, it is currently able to
-            host a local game between two players on the same computer. Don’t be surprised if
-             the button for the black AI doesn’t work!
-          <br>
-        </br>
-          <a
-          href="https://anderswartz.github.io/chessAI/">Chess AI and local player</a>
+        <div class="col-lg-6">
+        
+          <br></br>
+         
+      </div>
+
+
+
+
+
+
+
+
+    
+
+        <h1>
+          Chess AI -> <a
+          href="https://anderswartz.github.io/chessAI/">Play it here!</a>
+        </h1>
+
+        <br></br>
+
+       
+   
+    <div style="overflow:auto">
+      <img src="chessAIGif.gif" alt="Chess AI Gif" style="float:right;width:600px;height:600px;">
+      <p style="float:left;width:40%;">With very little HTML, CSS, and Javascript experience, I created a website where people can play local chess vs another person, an AI, or watch AI vs AI. Using a rule-based implementation (not ML), I wanted to see how strong I could make a chess AI. This was an opportunity to test my understanding of search algorithms, namely the minimax algorithm which I implemented from scratch along with several optimization techniques, such as alpha-beta pruning and move sorting. The AI is limited by the time-complexity. At a depth of 3 (~10,000 final positions), it takes .5 seconds, whereas at depth of 4 (~200,000 final positions), it takes 5-10 seconds. There were also lots of exceptions that were difficult to account for (e.g. castling, en-passant, pawn-promotion, etc.), but I managed to complete all of these (perhaps with the exception of pawn-promotion, which is still buggy with the AI!). Overall, the project was a great way to incorporate lots of CSC skills like recursion, DFS, time-complexity, web dev, and organizing 5,000 lines of code. I learned the importance of refactoring and incremental development.</p>
+    </div>
+    <br>
+  </br>
+   
+    <br>
+  </br>
+    <h1>
+      Zipf's Law Simulator -> <a
+      href="https://anderswartz.github.io/Zipfs/">Try it out here!</a>
+    </h1>
+
+    <br></br>
+
+    <div style="overflow:auto">
+      <img src="zipfsHP2.PNG" alt="Chess AI Gif" style="float:right;width:700px;height:400px;">
+      <p style="float:left;width:40%;">This is a text analysis project I originally created 
+        in Java and then made into website using Javascript, 
+        HTML, and CSS. The project brings together my interest in 
+        Linguistics and Computer Science as it demonstrates Zipf's Law -- 
+        a famous statitstical relationship between word frequencies in texts.
+       On the right is an example of running the program with "Harry Potter 
+       and the Sorcerer's Stone", showing that each word's frequency is inversely
+      proportional to its rank in the frequenecy distribution. </p>
+    </div>
+          
+       
         </p>
-        <h1>
-          Zipf's Law Project
-        </h1>
-                <p>
-                  A text analysis project I originally created 
-                  in Java and then made into website using Javascript, 
-                  HTML, and CSS. The project brings together my interest in 
-                  Linguistics and Computer Science as it demonstrates Zipf's Law -- 
-                  a famous statistcal relationship between word frequencies in texts.
-                  <br>
-                </br>
-                  <a
-                  href="https://anderswartz.github.io/Zipfs/">Project on Zipf's Law</a>
-                </p>
-        <h1>
-          This website!
+        <br>
+      </br>
+      
+ 
+
+
+
+
+        <h1> 
+        </br> 
+          This website! -> <a
+          href="https://github.com/AnderSwartz/About-Me">See the code here!</a>
         </h1>
         <p>
           This website was coded by myself using HTML / CSS and Javascript. 
-          All of my webdev experience is self-taught. It was built with the aid of a bootstrapped design linked below.
-        
-         
-          <br>
-        </br>
-          <a
-          href="https://github.com/AnderSwartz/About-Me">Check out the code here</a>
-        </p>
+          All of my webdev experience is self-taught. It was built with the aid of a bootstrapped design linked below. 
+          
+      
         
           <!-- <a
           href="https://anderswartz.github.io/About-Me/">Check out the code here</a> -->
        
-      </div>
-      <div class="row">
-        
+   
       </div>  
         
       </div>
@@ -223,21 +248,52 @@
           <h1>
             
           </h1>
-          <br>
-        </br>
+          
           <h2 class="tm-text-primary tm-section-title mb-4">My courses (so far)</h2>
           <p class="mx-auto tm-work-description">
             <!-- "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut
                 porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus
                 orci luctus et ultrices posuere cubilia." -->
             <a href="courses.html">List of all courses</a>
-            <br>
-            <br>
+           
             <br>
 
           </p>
         </div>
       </div>
+
+
+
+       <!-- <h1>
+          <br>
+        </br>
+        Zipf's Law Project
+        </h1>
+                <p>
+                  A text analysis project I originally created 
+                  in Java and then made into website using Javascript, 
+                  HTML, and CSS. The project brings together my interest in 
+                  Linguistics and Computer Science as it demonstrates Zipf's Law -- 
+                  a famous statistcal relationship between word frequencies in texts.
+                  <br>
+                </br>
+                  <a
+                  href="https://anderswartz.github.io/Zipfs/">Project on Zipf's Law</a>
+                </p>
+                <br>
+              </br> -->
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- <div class="row">
             <div class="col-12">
                 <div class="mx-auto tm-gallery-container">
@@ -373,7 +429,7 @@
     </div>
     <footer class="text-center small tm-footer">
       <p class="mb-0">
-        Copyright &copy; 2022 AnderSwartz.com
+        Copyright &copy; 2023 AnderSwartz.com
 
         - Design: Bootstraped using <a href="https://templatemo.com/tm-525-the-town"
           style="color: darkgrey;">templatemo.com </a>
